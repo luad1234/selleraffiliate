@@ -6,9 +6,9 @@ import { RegionConfig } from '@/types';
 const FORM_URL = "https://docs.google.com/forms/d/1APjjjCIwgtKGcLpnVFC8ptH4Eb5tKzzkq1e_PHxSw28/viewform";
 
 const Regions: RegionConfig[] = [
-  { id: 'us', label: 'United States', flag: '🇺🇸', desc: 'Connect with US Affiliates' },
-  { id: 'uk', label: 'United Kingdom', flag: '🇬🇧', desc: 'Connect with UK Affiliates' },
-  { id: 'eu', label: 'Europe', flag: '🇪🇺', desc: 'Connect with EU Affiliates' },
+  { id: 'us', label: 'United States', flag: '🇺🇸', desc: 'Connect with our US network' },
+  { id: 'uk', label: 'United Kingdom', flag: '🇬🇧', desc: 'Connect with our UK network' },
+  { id: 'eu', label: 'Europe', flag: '🇪🇺', desc: 'Connect with our EU network' },
 ];
 
 export default function LandingPage() {
@@ -23,7 +23,7 @@ export default function LandingPage() {
           </h1>
           
           <p className="text-slate-400 text-lg md:text-2xl max-w-lg mx-auto leading-relaxed font-medium">
-            Join our premium curated affiliate network. <br />
+            Join our premium curated network. <br />
             <span className="text-white font-bold">
               TikTok Affiliate Partner (TAP) launch Q2!
             </span>
